@@ -1,0 +1,88 @@
+# OCaml build artifacts
+*.cmo
+*.cmi
+*.cmx
+*.cmxa
+*.cmxs
+*.o
+*.a
+*.so
+*.byte
+*.native
+*.opt
+*.cmt
+*.cmti
+*.annot
+
+# OCaml build directories
+_build/
+_builds/
+*.install
+
+# OCaml package manager
+*.opam
+.opam/
+.ocamlinit
+
+# OCaml IDE files
+.merlin
+.ocamldebug
+*.merlin
+
+# Dune specific
+/_build/
+/_opam/
+/.dune/
+/dune-project.local
+
+# OCaml bytecode and native code files
+*.byte
+*.native
+
+# OCaml temporary files
+*.swp
+*~
+
+# OCaml documentation
+*.odoc
+*.odocl
+*.odocp
+*.odocu
+*.odocv
+
+# OCaml test files
+*.test
+*.test.actual
+*.test.expected
+
+# OCaml profiling files
+*.prof
+*.profraw
+
+# OCaml coverage files
+*.coverage
+*.coverage.*
+
+# OCaml debug files
+*.debug
+*.debug.*
+
+# OCaml dependency files
+*.depend
+*.deps
+
+# OCaml cache files
+*.cache
+*.cache.*
+
+# OCaml backup files
+*.bak
+*.backup
+
+# OCaml log files
+*.log
+*.log.*
+
+# OCaml temporary directories
+tmp/
+temp/

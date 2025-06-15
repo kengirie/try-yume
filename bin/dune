@@ -1,0 +1,14 @@
+(executable
+ (public_name try-yume)
+ (name main)
+ (libraries
+ try_yume
+ yume
+ mirage-crypto-rng
+     mirage-crypto-rng.unix
+  eio
+    eio_main
+  tls-eio
+  eio.unix
+  websocket
+  cohttp-eio))
